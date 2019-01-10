@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router
+} from 'react-router-dom';
+
+import SiteHeader from './components/SiteHeader';
+import Navigator from './components/Navigator';
+import SiteFooter from './components/SiteFooter';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+    <div className="main">
+        <section className="header">
+          <SiteHeader/>
+          This is my portfolio, bro!
+        </section>
+        <section className="body">
+          <Router>
+            <Navigator />
+          </Router>
+        </section>
+        <section className="footer">
+          <SiteFooter/>
+        </section>
       </div>
     );
   }
