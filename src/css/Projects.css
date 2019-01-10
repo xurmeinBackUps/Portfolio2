@@ -1,3 +1,47 @@
-.projects-grid{
+
+
+#projects-grid{
+    margin: auto;
     display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: 15vh 15vh 15vh;
+    grid-auto-flow: row;
+}
+
+.yelp{
+    border: 1px solid black;
+}
+
+.dokit{
+    border: 1px solid black;
+}
+
+.angular{
+    border: 1px solid black;
+}
+
+.cosmoknot{
+    border: 1px solid black;
+}
+
+.nytVidSearch{
+    border: 1px solid black;
+}
+
+.cheatBeat{
+    border: 1px solid black;
+}
+
+.jsTutorials{
+    border: 1px solid black;
+}
+
+.cssCreature{
+    border: 1px solid black;
+}
+
+.gitHub{
+    border: 1px solid black;
 }
