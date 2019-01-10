@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css'
 
 const Projects = () => (
-    <section id="projects-container">
+    <section className="projects-container">
         <h2 className="projects-title">Example Work</h2>
         <div className="projects-grid">
             <div className="yelp"></div>
