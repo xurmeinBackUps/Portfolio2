@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://xurmeinbackups.github.io/Portfolio2/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
