@@ -4,7 +4,7 @@ import '../App.css';
 const SiteFooter = () => (
     <section className="footer">
         <footer>
-            <p>by: Jake Peacock, 2019</p>
+            <p className="footer-text">by: Jake Peacock, 2019</p>
         </footer>
     </section>
 );
