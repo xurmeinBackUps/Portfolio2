@@ -1,9 +1,20 @@
-@import url('./css/SiteHeader.css');
-@import url('./css/SiteFooter.css');
+@import url('./css/Header.css');
 @import url('./css/Navigator.css');
 @import url('./css/AboutMe.css');
 @import url('./css/ContactMe.css');
 @import url('./css/Projects.css');
+@import url('./css/Footer.css');
 
 /* font-family: 'Press Start 2P', cursive; 
 font-family: 'Strait', sans-serif; */
+
+.body{
+    font-family: 'Strait', sans-serif;
+    height: 83vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    color: #2F3E46;
+    position: fixed;
+    top: 13vh;
+}

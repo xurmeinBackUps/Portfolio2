@@ -1,7 +1,19 @@
 .navigator{
-    float: left;
+    width: 100vw;
+   
 }
 
 .nav-links{
     list-style: none;
+    position: fixed;
+    padding: 10px;
+    left: 3vw;
+    top: 20vh;
+    border: 5px solid orange;
+}
+
+.nav-button{
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }

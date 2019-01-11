@@ -1,5 +1,8 @@
 import React from 'react';
 import {
+    Button
+} from 'reactstrap';
+import {
     Route,
     Link,
     Switch
@@ -13,9 +16,27 @@ const Navigator = () => (
     <div className="navigator">
         <section className="nav">
             <ul className="nav-links">
-                <li><Link to="/aboutme">About Me</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
-                <li><Link to="/contactme">Contact</Link></li>
+                <li>
+                    <Link to="/aboutme">
+                        <Button type="submit" className="nav-button">
+                            About Me
+                        </Button>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/projects">
+                        <Button type="submit" className="nav-button">
+                            Projects
+                        </Button>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/contactme">
+                        <Button type="submit" className="nav-button">
+                            Contact Me
+                        </Button>
+                    </Link>
+                </li>
             </ul>
         </section>
         <div className="routes">

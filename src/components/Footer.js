@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const SiteFooter = () => (
+const Footer = () => (
     <section className="footer">
         <footer>
             <p className="footer-text">by: Jake Peacock, 2019</p>
@@ -9,4 +9,4 @@ const SiteFooter = () => (
     </section>
 );
 
-export default SiteFooter;
+export default Footer;

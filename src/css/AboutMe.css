@@ -1,0 +1,10 @@
+.aboutMe-text{
+    font-size: 3vh;
+    position: relative;
+    text-align: right;
+    margin: 5%;
+    float: right;
+    border: 1px dotted #4537FA;
+    width: 70vw;
+    height: fit-content;
+}
