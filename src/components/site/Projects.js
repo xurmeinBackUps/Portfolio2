@@ -6,15 +6,33 @@ const Projects = () => (
         <h2 className="projects-title">Example Work</h2>
         <section className="projects-container">
             <div className="projects-grid">
-                <div className="yelp"></div>
-                <div className="dokit"></div>
-                <div className="angular"></div>
-                <div className="cosmoknot"></div>
-                <div className="nytVidSearch"></div>
-                <div className="cheatBeat"></div>
-                <div className="jsTutorials"></div>
-                <div className="cssCreature"></div>
-                <div className="gitHub"></div>
+                <div className="yelp">
+                    <img src="../../../public/assets/js.svg" className="project-icon" />
+                </div>
+                <div className="dokit">
+                
+                </div>
+                <div className="angular">
+                
+                </div>
+                <div className="cosmoknot">
+                
+                </div>
+                <div className="nytVidSearch">
+                
+                </div>
+                <div className="cheatBeat">
+                
+                </div>
+                <div className="jsTutorials">
+                
+                </div>
+                <div className="cssCreature">
+                
+                </div>
+                <div className="gitHub">
+                
+                </div>
             </div>
         </section>
     </div>

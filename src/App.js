@@ -12,17 +12,13 @@ class App extends Component {
   render() {
     return (
     <div className="main">
-        {/* <section className="header"> */}
-          <Header/>
-        {/* </section> */}
+        <Header/>
         <section className="body">
           <Router>
             <Navigator />
           </Router>
         </section>
-        {/* <section className="footer"> */}
-          <Footer/>
-        {/* </section> */}
+        <Footer/>
       </div>
     );
   }
