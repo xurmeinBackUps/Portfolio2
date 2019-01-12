@@ -1,0 +1,13 @@
+.portrait{
+    background: url('../assets/picassoAtTheLapinAgile.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 10;
+    height: 65vh;
+    width: 80vw;
+    float: right;
+}
+
+.quote{
+    float: right;
+    background: #04060472;
+}

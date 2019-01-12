@@ -17,7 +17,8 @@
 Button{
     color: #2f769d;
     background-color: rgba(110, 93, 71, 0.455);
-     border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
 }
 
 h5{

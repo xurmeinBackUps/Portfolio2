@@ -48,7 +48,7 @@ const ContactMe = () => (
                     />
                 </Label>
             </FormGroup>
-            <Button type="submit" value="Send">
+            <Button className="emailMe" type="submit" value="Send">
                 Send Message
             </Button>
         </Form>
