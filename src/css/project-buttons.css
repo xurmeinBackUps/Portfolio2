@@ -1,0 +1,75 @@
+.yelp{
+    background: url('../assets/yelp-sketched-logo.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    width: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.dokit{
+    background: url('../assets/calendar.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.angular{
+    background: url('../assets/role-game.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    font-family: 'Strait', sans-serif;
+} 
+
+.cosmoknot{
+    background: url('../assets/solar-system.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;    
+    font-family: 'Strait', sans-serif;
+}
+
+.nytVidSearch{
+    background: url('../assets/new-york-city-apple-symbol-with-buildings-shapes-inside\ \(1\).png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.cheatBeat{
+    background: url('../assets/clapping.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.jsTutorials{
+    background: url('../assets/js-file.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    width: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.cssCreature{
+    background: url('../assets/kraken.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    width: stretch;
+    font-family: 'Strait', sans-serif;
+}
+
+.gitHub{
+    background: url('../assets/github.png') center no-repeat;
+    background-size: contain;
+    border: none;
+    height: stretch;
+    width: stretch;
+    font-family: 'Strait', sans-serif;
+} 

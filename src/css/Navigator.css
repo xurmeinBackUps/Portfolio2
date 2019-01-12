@@ -1,6 +1,5 @@
 .navigator{
     width: 100vw;
-   
 }
 
 .nav-links{
@@ -9,11 +8,13 @@
     padding: 10px;
     left: 3vw;
     top: 20vh;
-    border: 5px solid orange;
+    border: 5px solid #FF9517;
+    border-radius: 15px;;
 }
 
 .nav-button{
     width: 100%;
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
+    margin: 2px;
 }

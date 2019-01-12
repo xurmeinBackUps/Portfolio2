@@ -1,9 +1,11 @@
+@import './project-buttons.css';
+
 .projects-grid{
-    margin-left: 25%;
+    margin-left: 33%;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
-    grid-gap: 10px 10px;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-gap: 3% 3%;
     grid-auto-flow: row;
 }
 
@@ -13,74 +15,13 @@
 }
 
 Button{
-  color: #2f769d;
-  background-color: rgba(110, 93, 71, 0.455);
-  border-radius: 5px;
+    color: #2f769d;
+    background-color: rgba(110, 93, 71, 0.455);
+     border-radius: 5px;
 }
 
-.yelp{
-    background: url('../assets/yelp-sketched-logo.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    width: stretch;
-    font-family: 'Strait', sans-serif;
+h5{
+    font-size: 3vh;
+    color: #FF9517;
+    background-color: #08070582;
 }
-
-.dokit{
-    background: url('../assets/calendar.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    font-family: 'Strait', sans-serif;
-}
-
-.angular{
-    background: url('../assets/role-game.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    font-family: 'Strait', sans-serif;
-} 
-
-.cosmoknot{
-    background: url('../assets/solar-system.png') center no-repeat;
-    background-size: cover;
-    height: stretch;    
-    font-family: 'Strait', sans-serif;
-}
-
-.nytVidSearch{
-    background: url('../assets/new-york-city-apple-symbol-with-buildings-shapes-inside\ \(1\).png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    font-family: 'Strait', sans-serif;
-}
-
-.cheatBeat{
-    background: url('../assets/clapping.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    font-family: 'Strait', sans-serif;
-}
-
-.jsTutorials{
-    background: url('../assets/js-file.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    width: stretch;
-    font-family: 'Strait', sans-serif;
-}
-
-.cssCreature{
-    background: url('../assets/kraken.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    width: stretch;
-    font-family: 'Strait', sans-serif;
-}
-
-.gitHub{
-    background: url('../assets/github.png') center no-repeat;
-    background-size: cover;
-    height: stretch;
-    width: stretch;
-    font-family: 'Strait', sans-serif;
-} 
