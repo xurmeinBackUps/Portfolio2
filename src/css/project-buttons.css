@@ -1,5 +1,5 @@
 .yelp{
-    background: url('../assets/yelp-sketched-logo.png') center no-repeat;
+    background: url('../assets/icons/yelp-sketched-logo.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -8,7 +8,7 @@
 }
 
 .dokit{
-    background: url('../assets/calendar.png') center no-repeat;
+    background: url('../assets/icons/calendar.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -16,7 +16,7 @@
 }
 
 .angular{
-    background: url('../assets/role-game.png') center no-repeat;
+    background: url('../assets/icons/role-game.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -24,7 +24,7 @@
 } 
 
 .cosmoknot{
-    background: url('../assets/solar-system.png') center no-repeat;
+    background: url('../assets/icons/solar-system.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;    
@@ -32,7 +32,7 @@
 }
 
 .nytVidSearch{
-    background: url('../assets/new-york-city-apple-symbol-with-buildings-shapes-inside\ \(1\).png') center no-repeat;
+    background: url('../assets/icons/new-york-city-apple-symbol-with-buildings-shapes-inside\ \(1\).png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -40,7 +40,7 @@
 }
 
 .cheatBeat{
-    background: url('../assets/clapping.png') center no-repeat;
+    background: url('../assets/icons/clapping.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -48,7 +48,7 @@
 }
 
 .jsTutorials{
-    background: url('../assets/js-file.png') center no-repeat;
+    background: url('../assets/icons/js-file.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -57,7 +57,7 @@
 }
 
 .cssCreature{
-    background: url('../assets/kraken.png') center no-repeat;
+    background: url('../assets/icons/kraken.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;
@@ -66,7 +66,7 @@
 }
 
 .gitHub{
-    background: url('../assets/github.png') center no-repeat;
+    background: url('../assets/icons/github.png') center no-repeat;
     background-size: contain;
     border: none;
     height: stretch;

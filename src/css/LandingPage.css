@@ -1,9 +1,9 @@
 .portrait{
-    background: url('../assets/picassoAtTheLapinAgile.jpg') center no-repeat;
+    background: url('../assets/images/picassoAtTheLapinAgile.jpg') center no-repeat;
     background-size: cover;
     z-index: 10;
-    height: 65vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
     float: right;
 }
 
