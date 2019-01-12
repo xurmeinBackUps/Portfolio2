@@ -11,7 +11,7 @@ import LandingPage from './site/LandingPage';
 import AboutMe from './site/AboutMe'
 import Projects from './site/Projects'
 import ContactMe from './site/ContactMe';
-import Resume from './Resume';
+// import Resume from './Resume';
 import '../App.css';
 
 const Navigator = (props) => (
@@ -47,8 +47,13 @@ const Navigator = (props) => (
                     </Link>
                 </li>
                 <li>
-                    <a href="./JAKE_PEACOCK_RESUME.docx.pdf" target="_blank">
-                        <Resume/>
+                    <a 
+                    href="https://docs.google.com/document/d/1nNvcPTscmUIYanV6wP5Hh5hvNK20R-ME-qzGiasxRq4" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <Button type="submit" className="nav-button">
+                            My Resume
+                        </Button>
                     </a>
                 </li>
             </ul>
@@ -59,7 +64,6 @@ const Navigator = (props) => (
                 <Route exact path="/aboutme"><AboutMe/></Route>
                 <Route exact path="/projects"><Projects/></Route>
                 <Route exact path="/contactme"><ContactMe/></Route>
-                <Route exact path="_blank"><Resume/></Route>
                 <Route path="/"><LandingPage/></Route>
             </Switch>
         </div>
