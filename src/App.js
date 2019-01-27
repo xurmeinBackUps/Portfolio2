@@ -3,13 +3,16 @@ import {
   BrowserRouter as Router
 } from 'react-router-dom';
 
-import Header from './components/Header';
-import Navigator from './components/Navigator';
-import Footer from './components/Footer';
-import './App.css';
+import Header from './components/site/Header';
+import Navigator from './components/site/Navigator';
+import Footer from './components/site/Footer';
+// import Splash from './components/Splash';
 
 class App extends Component {
   render() {
+    // if(this.props.viewprofile === true){
+    //   return (<Splash/>)
+    // } else {
     return (
     <div className="main">
         <Header/>
@@ -21,6 +24,7 @@ class App extends Component {
         <Footer/>
       </div>
     );
+    // }
   }
 }
 

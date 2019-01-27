@@ -7,14 +7,14 @@ import {
 import {
     Button
 } from 'reactstrap';
-import LandingPage from './site/LandingPage';
-import AboutMe from './site/AboutMe'
-import Projects from './site/Projects'
-import ContactMe from './site/ContactMe';
+import HomePage from './view/HomePage';
+import AboutMe from './view/AboutMe'
+import Projects from './view/Projects'
+import ContactMe from './view/ContactMe';
 // import Resume from './Resume';
-import '../App.css';
+import '../../App.css';
 
-const Navigator = (props) => (
+const Navigator = () => (
     <div className="navigator">
         <section className="nav">
             <ul className="nav-links">
@@ -60,11 +60,11 @@ const Navigator = (props) => (
         </section>
         <div className="routes">
             <Switch>
-                <Route exact path="/home"><LandingPage/></Route>
+                <Route exact path="/home"><HomePage/></Route>
                 <Route exact path="/aboutme"><AboutMe/></Route>
                 <Route exact path="/projects"><Projects/></Route>
                 <Route exact path="/contactme"><ContactMe/></Route>
-                <Route path="/"><LandingPage/></Route>
+                <Route path="/"><HomePage/></Route>
             </Switch>
         </div>
     </div>

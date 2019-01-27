@@ -6,7 +6,7 @@ import {
     Input,
     Label
 } from 'reactstrap';
-import '../../App.css'
+import '../../../App.css'
 
 const ContactMe = () => (
     <section className="contact-container"> 

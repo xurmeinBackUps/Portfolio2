@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
+import '../../../App.css';
 
-const LandingPage = () => (
+const HomePage = () => (
     <section className="lander">
         <div className="portrait">
             <div className="quote">
@@ -15,4 +15,4 @@ const LandingPage = () => (
     </section>
 );
 
-export default LandingPage;
+export default HomePage;

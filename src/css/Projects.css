@@ -16,9 +16,19 @@
 
 Button{
     color: #2f769d;
-    background-color: rgba(110, 93, 71, 0.455);
-    border-radius: 5px;
-    padding: 3px;
+    background-color: rgba(41, 137, 255, 0.408);
+    border-radius: 7px;
+    padding: 5px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+Button:hover{
+    box-shadow: -2px 0 3px #32BD4A, 0 2px 3px #32BD4A, 2px 0 3px #32BD4A, 0 -2px 3px #32BD4A;
+    text-shadow: -1px 0 1px #FF9517, 0 1px 1px #FF9517, 1px 0 1px #FF9517, 0 -1px 1px #FF9517;
+}
+
+Button:focus{
+    outline: none;
 }
 
 h5{
